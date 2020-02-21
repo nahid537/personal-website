@@ -1,0 +1,162 @@
+/* Google Fonts Poppins */
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,300,400,500,700&display=swap');
+
+/* Global CSS */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    color: #707070;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    color: #202428;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    color: #707070;
+    font-size: 16px;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.half-width{
+    width: 47%;
+    float: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Top Banner Section CSS Start */
+.top-banner-section{
+    width: 100%;
+    float: left;
+    padding: 100px 0px;
+    background: url(../images/header-bg.png) no-repeat center;
+}
+.top-banner-section h1{
+    font-weight: 400;
+    font-size: 40px;
+}
+.top-banner-section .half-width:first-child{
+    padding-top: 110px;
+}
+.top-banner-section .name-highlight{
+    color: #ec4c7a;
+    font-weight: 700;
+    padding-bottom: 25px;
+}
+.top-banner-section p{
+    line-height: 30px;
+}
+.link-button{
+    background-image: linear-gradient(45deg,#ec5093, #ec4c7a);
+    color: #fff;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: inline-block;
+}
+
+/* Biography Section CSS Start */
+.biography-section{
+    width: 100%;
+    float: left;
+    background: url(../images/biography-bg.png);
+    padding: 100px 0px;
+}
+.biography-section .img-width{
+    width: 85%;
+}
+.biography-section h2{
+    font-weight: 500;
+    font-size: 35px;
+    padding-top: 110px;
+    padding-bottom: 25px;
+}
+
+/* Latest Work Section CSS Start */
+.latest-work-section{
+    width: 100%;
+    float: left;
+    padding: 120px 0px 190px;
+    background: url(../images/latest-work-bg.png) no-repeat center;
+}
+.latest-work-section h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500
+}
+.latest-work-section .work-gallery{
+    margin-top: 60px;
+}
+.latest-work-section .gallery-box{
+    width: 33.33%;
+    float: left;
+}
+
+/* Client Section CSS Start */
+.client-section{
+    width: 100%;
+    float: left;
+    padding-bottom: 50px;
+}
+.client-section h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 500
+}
+.client-section h3{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 60px;
+}
+.client-section h6{
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.client-section p{
+    width: 60%;
+    margin: 25px auto 0px;
+    text-align: center;
+}
+.client-section .email-box{
+    width: 50%;
+    margin: 40px auto 0px;
+    border-radius: 10px;
+    background: #ec5093;
+    padding: 40px 0px;
+}
+.client-section .email-box p{
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 15px;
+}
+.client-section .email-box h3{
+    color: #fff;
+    text-align: center;
+    padding-top: 20px !important;
+    font-weight: 500;
+}
+/* Footer Section CSS Sart */
+footer{
+    width: 100%;
+    float: left;
+    padding: 20px 0px;
+}
+footer p{
+    font-size: 14px;
+    text-align: center;
+}
